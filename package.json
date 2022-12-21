@@ -1,0 +1,23 @@
+{
+  "name": "@s3pweb/keycloak-admin-client-cjs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "esbuild src/index.ts --platform=node --bundle --format=cjs --outfile=dist/index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//s3pweb/keycloak-admin-client-cjs.git"
+  },
+  "author": "s3pweb",
+  "license": "MIT",
+  "dependencies": {
+    "@keycloak/keycloak-admin-client": "20.0.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.16.10"
+  }
+}
