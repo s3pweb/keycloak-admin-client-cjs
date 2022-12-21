@@ -6,7 +6,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "esbuild src/index.ts --platform=node --bundle --format=cjs --outfile=dist/index.js",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
     "@keycloak/keycloak-admin-client": "20.0.2"
   },
   "devDependencies": {
-    "esbuild": "^0.16.10"
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "esbuild": "^0.16.10",
+    "husky": "^8.0.2"
   }
 }
