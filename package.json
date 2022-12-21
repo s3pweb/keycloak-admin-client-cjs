@@ -1,13 +1,18 @@
 {
   "name": "@s3pweb/keycloak-admin-client-cjs",
   "version": "0.0.0",
-  "description": "",
+  "description": "Keycloak Admin Client compiled in CommonJS.",
+  "keywords": [
+    "keycloak-admin-client",
+    "CommonJS"
+  ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "esbuild src/index.ts --platform=node --bundle --format=cjs --outfile=dist/index.js",
     "prepublish": "npm run build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version -s"
   },
   "repository": {
     "type": "git",
@@ -22,6 +27,10 @@
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "esbuild": "^0.16.10",
-    "husky": "^8.0.2"
-  }
+    "husky": "^8.0.2",
+    "standard-version": "^9.5.0"
+  },
+  "files": [
+    "dist/**/"
+  ]
 }
