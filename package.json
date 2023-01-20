@@ -28,7 +28,7 @@
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "commit-and-tag-version": "^11.0.0",
-    "esbuild": "^0.16.10",
+    "esbuild": "^0.17.3",
     "husky": "^8.0.3"
   },
   "files": [
