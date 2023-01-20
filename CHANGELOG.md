@@ -1,6 +1,15 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+## [20.0.3](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v1.0.0...v20.0.3) (2023-01-20)
+
+
+### Other
+
+* **deps-dev:** update to esbuild@0.17.3 ([e9426ea](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/e9426eae9928b80743b0cdd04c567f9e35e51b44))
+* **deps-dev:** update to the latest husky and commitlint versions ([c456bc0](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/c456bc02ab6b85242667ccb8e5e4706b41819090))
+* **deps:** update to @keycloak/keycloak-admin-client@20.0.3 ([8042bc1](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/8042bc157a4952bb64a018e9f90d1e8b379f4051))
 
 ## 1.0.0 (2022-12-21)
 
