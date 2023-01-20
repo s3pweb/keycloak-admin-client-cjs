@@ -13,7 +13,7 @@
     "build": "esbuild src/index.ts --platform=node --bundle --format=cjs --outfile=dist/index.js",
     "prepublish": "npm run build",
     "prepare": "husky install",
-    "release": "standard-version -s"
+    "release": "commit-and-tag-version -s"
   },
   "repository": {
     "type": "git",
@@ -27,9 +27,9 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
+    "commit-and-tag-version": "^11.0.0",
     "esbuild": "^0.16.10",
-    "husky": "^8.0.2",
-    "standard-version": "^9.5.0"
+    "husky": "^8.0.2"
   },
   "files": [
     "dist/**/"
