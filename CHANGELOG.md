@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [22.0.1](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v21.0.1...v22.0.1) (2023-08-07)
+
+### Features
+
+* **keycloak:** re-export common keycloak interfaces in index.d.ts
+
+### Other
+
+* **deps:** bump @keycloak/keycloak-admin-client from 20.0.3 to 21.0.1 ([45157bf](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/45157bfd49abbb56a220135161873d558ed2bf84))
+
 ## [21.0.1](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v20.0.3...v21.0.1) (2023-03-07)
 
 
