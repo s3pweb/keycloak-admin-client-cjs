@@ -10,7 +10,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "esbuild src/index.ts --platform=node --bundle --format=cjs --outfile=dist/index.js",
+    "build": "esbuild dist/index.d.ts --platform=node --bundle --format=cjs --outfile=dist/index.js",
     "prepublish": "npm run build",
     "prepare": "husky install",
     "release": "commit-and-tag-version -s"
