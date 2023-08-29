@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [22.0.1](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v21.0.1...v22.0.1) (2023-08-29)
+
+
+### Bug Fixes
+
+* **interface:** add auth interfaces ([d48e12c](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/d48e12cf41abad1821fa6044951b1f45110a00ca))
+* **interfaces:** re-import interfaces ([4e34aed](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/4e34aed6691c67c3e18c4e4877e086b777ee9ea9))
+
+
+### Other
+
+* update keycloak to 22.0.1, re-export some interfaces ([bbec4a1](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/bbec4a12a71d91661331fa1007a8f69f676246bb))
+
 ## [21.0.1](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v20.0.3...v21.0.1) (2023-03-07)
 
 
