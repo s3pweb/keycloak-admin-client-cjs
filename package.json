@@ -22,7 +22,7 @@
   "author": "s3pweb",
   "license": "MIT",
   "dependencies": {
-    "@keycloak/keycloak-admin-client": "22.0.5"
+    "@keycloak/keycloak-admin-client": "23.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
