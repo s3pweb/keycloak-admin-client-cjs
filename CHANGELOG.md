@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [25.0.1-1](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v25.0.1...v25.0.1-1) (2024-06-28)
+
+
+### Bug Fixes
+
+* fix broken import after update ([0c577e1](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/0c577e1dbbea59b4fb18f643a410db564b22890f))
+
 ## [25.0.1](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v24.0.5...v25.0.1) (2024-06-28)
 
 
