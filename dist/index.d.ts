@@ -63,7 +63,7 @@ import SynchronizationResultRepresentation from '@keycloak/keycloak-admin-client
 import SystemInfoRepresentation from '@keycloak/keycloak-admin-client/lib/defs/systemInfoRepersantation'
 import TestLdapConnectionRepresentation from '@keycloak/keycloak-admin-client/lib/defs/testLdapConnection'
 import UserConsentRepresentation from '@keycloak/keycloak-admin-client/lib/defs/userConsentRepresentation'
-import UserProfileConfig from '@keycloak/keycloak-admin-client/lib/defs/userProfileConfig'
+import { UserProfileConfig } from '@keycloak/keycloak-admin-client/lib/defs/userProfileMetadata'
 import UserSessionRepresentation from '@keycloak/keycloak-admin-client/lib/defs/userSessionRepresentation'
 import WhoAmIRepresentation from '@keycloak/keycloak-admin-client/lib/defs/whoAmIRepresentation'
 import { Credentials, Settings, TokenResponse, TokenResponseRaw } from '@keycloak/keycloak-admin-client/lib/utils/auth'
