@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [23.0.7](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v22.0.1...v23.0.7) (2024-06-28)
+
+
+### Other
+
+* **deps-dev:** update to latest versions ([d66e9b5](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/d66e9b57f88c28be7b2e94430e775d1711d5c0e6))
+* **deps:** bump @keycloak/keycloak-admin-client from 22.0.1 to 22.0.4 ([225b924](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/225b9240c00045fbd821e87e911416c4b91dcf15))
+* **deps:** bump @keycloak/keycloak-admin-client from 22.0.4 to 22.0.5 ([25ff60e](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/25ff60ef2c30a691c00be44af76eed9464b340b5))
+* **deps:** bump @keycloak/keycloak-admin-client from 22.0.5 to 23.0.6 ([80c4244](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/80c424415b2f7f4745a0f5b55303221ce1d656cc))
+* **deps:** update @keycloak/keycloak-admin-client to 23.0.7 ([7387ebc](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/7387ebce3d7f3dd1f7e4d3ab0d7669e4aa3dadeb))
+
 ## [22.0.1](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v21.0.1...v22.0.1) (2023-08-29)
 
 
