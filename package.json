@@ -12,7 +12,7 @@
   "scripts": {
     "build": "esbuild dist/index.d.ts --platform=node --bundle --format=cjs --outfile=dist/index.js",
     "prepublish": "npm run build",
-    "prepare": "husky install",
+    "prepare": "husky",
     "release": "commit-and-tag-version -s"
   },
   "repository": {
@@ -25,11 +25,11 @@
     "@keycloak/keycloak-admin-client": "23.0.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
-    "commit-and-tag-version": "^11.0.0",
-    "esbuild": "^0.17.3",
-    "husky": "^8.0.3"
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "commit-and-tag-version": "^12.4.1",
+    "esbuild": "^0.21.5",
+    "husky": "^9.0.11"
   },
   "files": [
     "dist/**/*"
