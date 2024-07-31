@@ -1,7 +1,7 @@
 # Keycloak Admin Client in CommonJS
 
 This lib exports the [@keycloak/keycloak-admin-client](https://www.npmjs.com/package/@keycloak/keycloak-admin-client) 
-(an ECMA Script module) as a CommonJS module so it can be used in NestJS.
+(an ECMA Script module) as a CommonJS module, so it can be used in NestJS.
 
 This repo is based on an idea by [Manuelbaun](https://github.com/Manuelbaun) on this issue https://github.com/keycloak/keycloak-nodejs-admin-client/issues/523
 

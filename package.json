@@ -28,8 +28,8 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "commit-and-tag-version": "^12.4.1",
-    "esbuild": "^0.21.5",
-    "husky": "^9.0.11"
+    "esbuild": "0.23.0",
+    "husky": "^9.1.4"
   },
   "files": [
     "dist/**/*"
