@@ -1,1 +1,4 @@
+#!/bin/sh
+
+npm run compile
 npm run build
