@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [25.1.0](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v25.0.4...v25.1.0) (2024-09-30)
+
+
+### Other
+
+* **deps-dev:** update dependencies ([20a92ff](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/20a92ffd480d7cb864e204f35ca37b91e969f4af))
+* **deps:** bump @keycloak/keycloak-admin-client from 25.0.4 to 25.0.6 ([9d12f9f](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/9d12f9f864e6f5ece0ce08e1892309ab8e845a8f))
+
+
+### Features
+
+* **exports:** export NetworkError and NetworkErrorOptions ([9201488](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/9201488b2506548841131738cd10d8c11ba64c5a)), closes [#21](https://github.com//s3pweb/keycloak-admin-client-cjs/issues/21)
+
 ## [25.0.4](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v25.0.2...v25.0.4) (2024-08-21)
 
 
