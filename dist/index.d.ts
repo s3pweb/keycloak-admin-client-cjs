@@ -67,6 +67,7 @@ import { UserProfileConfig } from '@keycloak/keycloak-admin-client/lib/defs/user
 import UserSessionRepresentation from '@keycloak/keycloak-admin-client/lib/defs/userSessionRepresentation'
 import WhoAmIRepresentation from '@keycloak/keycloak-admin-client/lib/defs/whoAmIRepresentation'
 import { Credentials, Settings, TokenResponse, TokenResponseRaw } from '@keycloak/keycloak-admin-client/lib/utils/auth'
+import { NetworkError, NetworkErrorOptions } from '@keycloak/keycloak-admin-client/lib/utils/fetchWithError'
 
 export { KeycloakAdminClient }
 export type {
@@ -112,6 +113,8 @@ export type {
   KeyStoreConfig,
   ManagementPermissionReference,
   MappingsRepresentation,
+  NetworkError,
+  NetworkErrorOptions,
   PasswordPolicyTypeRepresentation,
   PermissionRepresentation,
   PolicyEvaluationResponse,
