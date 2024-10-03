@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [25.0.6](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v25.1.0...v25.0.6) (2024-10-03)
+
 ## [25.1.0](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v25.0.4...v25.1.0) (2024-09-30)
 
 
