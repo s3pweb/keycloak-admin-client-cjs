@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [26.0.5](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v26.0.0...v26.0.5) (2024-11-06)
+
+
+### Other
+
+* **deps:** bump @keycloak/keycloak-admin-client from 26.0.0 to 26.0.5 ([3f58b20](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/3f58b2001fc43c5fbbebbd6c548903055e9faf60))
+
 ## [26.0.0](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v25.0.6...v26.0.0) (2024-10-09)
 
 
