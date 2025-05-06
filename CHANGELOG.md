@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [26.2.3](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v26.2.0...v26.2.3) (2025-05-06)
+
+
+### Other
+
+* **deps:** bump @keycloak/keycloak-admin-client from 26.2.0 to 26.2.3 ([f85661a](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/f85661af3de6924d0bade6268916cfc412970a4c))
+
+
+### Bug Fixes
+
+* add missing export RequiredActionAlias ([27b461c](https://github.com//s3pweb/keycloak-admin-client-cjs/commit/27b461c2a3e4220a72cf246afbcf4f039b6bcea5))
+
 ## [26.2.0](https://github.com//s3pweb/keycloak-admin-client-cjs/compare/v26.1.4...v26.2.0) (2025-04-18)
 
 
