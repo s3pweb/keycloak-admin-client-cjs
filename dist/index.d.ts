@@ -50,7 +50,7 @@ import PolicyRepresentation from '@keycloak/keycloak-admin-client/lib/defs/polic
 import ProfileInfoRepresentation from '@keycloak/keycloak-admin-client/lib/defs/profileInfoRepresentation'
 import ProtocolMapperRepresentation from '@keycloak/keycloak-admin-client/lib/defs/protocolMapperRepresentation'
 import { RealmEventsConfigRepresentation } from '@keycloak/keycloak-admin-client/lib/defs/realmEventsConfigRepresentation'
-import RequiredActionProviderRepresentation from '@keycloak/keycloak-admin-client/lib/defs/requiredActionProviderRepresentation'
+import RequiredActionProviderRepresentation, { RequiredActionAlias } from '@keycloak/keycloak-admin-client/lib/defs/requiredActionProviderRepresentation'
 import RequiredActionProviderSimpleRepresentation from '@keycloak/keycloak-admin-client/lib/defs/requiredActionProviderSimpleRepresentation'
 import ResourceEvaluation from '@keycloak/keycloak-admin-client/lib/defs/resourceEvaluation'
 import ResourceRepresentation from '@keycloak/keycloak-admin-client/lib/defs/resourceRepresentation'
@@ -125,6 +125,7 @@ export type {
   ProtocolMapperRepresentation,
   RealmEventsConfigRepresentation,
   RequiredActionProviderRepresentation,
+  RequiredActionAlias,
   RequiredActionProviderSimpleRepresentation,
   ResourceEvaluation,
   ResourceRepresentation,
