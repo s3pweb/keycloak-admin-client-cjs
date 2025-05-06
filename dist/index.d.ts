@@ -69,7 +69,7 @@ import WhoAmIRepresentation from '@keycloak/keycloak-admin-client/lib/defs/whoAm
 import { Credentials, Settings, TokenResponse, TokenResponseRaw } from '@keycloak/keycloak-admin-client/lib/utils/auth'
 import { NetworkError, NetworkErrorOptions } from '@keycloak/keycloak-admin-client/lib/utils/fetchWithError'
 
-export { KeycloakAdminClient }
+export { KeycloakAdminClient, RequiredActionAlias }
 export type {
   UserRepresentation,
   GroupRepresentation,
@@ -125,7 +125,6 @@ export type {
   ProtocolMapperRepresentation,
   RealmEventsConfigRepresentation,
   RequiredActionProviderRepresentation,
-  RequiredActionAlias,
   RequiredActionProviderSimpleRepresentation,
   ResourceEvaluation,
   ResourceRepresentation,
