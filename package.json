@@ -1,6 +1,6 @@
 {
   "name": "@s3pweb/keycloak-admin-client-cjs",
-  "version": "26.2.4",
+  "version": "26.2.5",
   "description": "Keycloak Admin Client compiled in CommonJS.",
   "keywords": [
     "keycloak-admin-client",
