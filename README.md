@@ -29,3 +29,24 @@ export class KeycloakService {
 
 }
 ```
+
+## How to release
+
+First, compile and build the project:
+
+```shell
+npm i
+npm run prepublish
+```
+
+To release a new version, you can use the `release` script with the keycloak-admin-client version as an argument:
+
+```shell
+npm run release -- --release-as <NEW_VERSION>
+```
+
+Then push the changes and the new tag to the main branch:
+
+```shell
+git push origin main --follow-tags
+```
