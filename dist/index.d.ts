@@ -41,6 +41,9 @@ import KeysMetadataRepresentation from '@keycloak/keycloak-admin-client/lib/defs
 import KeyStoreConfig from '@keycloak/keycloak-admin-client/lib/defs/keystoreConfig'
 import { ManagementPermissionReference } from '@keycloak/keycloak-admin-client/lib/defs/managementPermissionReference'
 import MappingsRepresentation from '@keycloak/keycloak-admin-client/lib/defs/mappingsRepresentation'
+import MemberRepresentation from '@keycloak/keycloak-admin-client/lib/defs/memberRepresentation'
+import OrganizationDomainRepresentation from '@keycloak/keycloak-admin-client/lib/defs/organizationDomainRepresentation'
+import OrganizationRepresentation from '@keycloak/keycloak-admin-client/lib/defs/organizationRepresentation'
 import PasswordPolicyTypeRepresentation from '@keycloak/keycloak-admin-client/lib/defs/passwordPolicyTypeRepresentation'
 import PermissionRepresentation from '@keycloak/keycloak-admin-client/lib/defs/PermissonRepresentation'
 import PolicyEvaluationResponse from '@keycloak/keycloak-admin-client/lib/defs/policyEvaluationResponse'
@@ -113,8 +116,11 @@ export type {
   KeyStoreConfig,
   ManagementPermissionReference,
   MappingsRepresentation,
+  MemberRepresentation,
   NetworkError,
   NetworkErrorOptions,
+  OrganizationDomainRepresentation,
+  OrganizationRepresentation,
   PasswordPolicyTypeRepresentation,
   PermissionRepresentation,
   PolicyEvaluationResponse,
