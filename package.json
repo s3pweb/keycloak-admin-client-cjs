@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com//s3pweb/keycloak-admin-client-cjs.git"
+    "url": "https://github.com/s3pweb/keycloak-admin-client-cjs"
   },
   "author": "s3pweb",
   "license": "MIT",
